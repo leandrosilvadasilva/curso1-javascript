@@ -32,3 +32,27 @@ while (i < 10)
 */
 
 // for in
+
+const pessoa = {
+    nome: 'Joao',
+    idade: 25
+};
+
+for (let chave in pessoa) {
+    console.log(chave, pessoa['nome'])
+        //ou por ponto: pessoa.nome
+}
+
+const cores = ['Vermelho', 'Azul', 'Verde'];
+
+for (let indice in cores) {
+    console.log(indice, cores[indice])
+
+
+}
+
+//for-of
+
+for (let cor of cores) {
+    console.log(cor)
+}
